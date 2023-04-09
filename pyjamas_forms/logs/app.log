@@ -1,0 +1,186 @@
+Request received: GET http://localhost:5000/
+Request received: GET http://localhost:5000/static/css/style.css
+Request received: GET http://localhost:5000/static/images/Blue%20Black%20Business%20Logo.png
+Request received: GET http://localhost:5000/
+Request received: GET http://localhost:5000/static/css/style.css
+Request received: GET http://localhost:5000/insert
+Request received: GET http://localhost:5000/favicon.ico
+Request received: GET http://localhost:5000/lookup
+Request received: POST http://localhost:5000/find
+Request received: POST http://localhost:5000/find
+Request received: GET http://localhost:5000/home
+Request received: GET http://localhost:5000/static/css/style.css
+Request received: GET http://localhost:5000/pyjamas.png
+Request received: GET http://localhost:5000/home
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/insert
+Exception on /insert [GET]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 151, in insert
+    form_name=pyjamas_config["form_name"],
+TypeError: 'NoneType' object is not subscriptable
+Request received: GET http://127.0.0.1:5000/insert
+Exception on /insert [GET]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 151, in insert
+    form_name=pyjamas_config["form_name"],
+TypeError: 'NoneType' object is not subscriptable
+Request received: GET http://127.0.0.1:5000/favicon.ico
+Request received: GET http://127.0.0.1:5000/insert
+Exception on /insert [GET]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 151, in insert
+    form_name=pyjamas_config["form_name"],
+TypeError: 'NoneType' object is not subscriptable
+Request received: GET http://127.0.0.1:5000/insert
+Exception on /insert [GET]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 151, in insert
+    form_name=pyjamas_config["form_name"],
+TypeError: 'NoneType' object is not subscriptable
+Request received: GET http://127.0.0.1:5000/insert
+Request received: POST http://127.0.0.1:5000/submit
+Exception on /submit [POST]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 88, in submit
+    data = crypto.encrypt(data)
+AttributeError: module 'crypto' has no attribute 'encrypt'
+Request received: POST http://127.0.0.1:5000/submit
+Request received: GET http://127.0.0.1:5000/lookup
+Request received: POST http://127.0.0.1:5000/find
+Request received: GET http://127.0.0.1:5000/insert
+Request received: POST http://127.0.0.1:5000/submit
+Request received: GET http://127.0.0.1:5000/lookup
+Request received: POST http://127.0.0.1:5000/find
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/static/images/Blue%20Black%20Business%20Logo.png
+Request received: GET http://127.0.0.1:5000/insert
+Request received: POST http://127.0.0.1:5000/submit
+Request received: GET http://127.0.0.1:5000/lookup
+Request received: POST http://127.0.0.1:5000/find
+Request received: GET http://localhost:1337/
+Request received: GET http://localhost:1337/static/css/style.css
+Request received: GET http://localhost:1337/static/images/Blue%20Black%20Business%20Logo.png
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/insert
+Request received: GET http://127.0.0.1:5000/favicon.ico
+Request received: POST http://127.0.0.1:5000/submit
+Request received: GET http://127.0.0.1:5000/lookup
+Request received: POST http://127.0.0.1:5000/find
+Request received: GET http://127.0.0.1:1337/
+Request received: GET http://127.0.0.1:1337/static/css/style.css
+Request received: GET http://127.0.0.1:1337/static/images/Blue%20Black%20Business%20Logo.png
+Request received: GET http://127.0.0.1:1337/insert
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/insert
+Request received: GET http://127.0.0.1:5000/favicon.ico
+Request received: GET http://127.0.0.1:5000/insert
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/testing
+Request received: GET http://127.0.0.1:5000/sree
+Request received: GET http://127.0.0.1:5000/insert
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/insert
+Exception on /insert [GET]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 151, in insert
+    form_name=pyjamas_config["form_name"],
+TypeError: 'NoneType' object is not subscriptable
+Request received: GET http://127.0.0.1:5000/insert
+Exception on /insert [GET]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 151, in insert
+    form_name=pyjamas_config["form_name"],
+TypeError: 'NoneType' object is not subscriptable
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/insert
+Request received: GET http://127.0.0.1:5000/
+Request received: GET http://127.0.0.1:5000/static/css/style.css
+Request received: GET http://127.0.0.1:5000/insert
+Request received: POST http://127.0.0.1:5000/submit
+Exception on /submit [POST]
+Traceback (most recent call last):
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Sreenath\AppData\Local\Programs\Python\Python39\lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Sreenath\Desktop\n1\pyjamas_forms\app.py", line 90, in submit
+    db.write(row)
+AttributeError: 'NoneType' object has no attribute 'write'
+Request received: POST http://127.0.0.1:5000/submit
+Request received: GET http://127.0.0.1:5000/lookup
+Request received: POST http://127.0.0.1:5000/find
+Request received: GET http://localhost:1337/
+Request received: GET http://localhost:1337/static/css/style.css
+Request received: GET http://localhost:1337/static/images/Blue%20Black%20Business%20Logo.png
